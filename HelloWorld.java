@@ -1,10 +1,7 @@
-public class HelloWorld {
-
-   /* This is my first java program.
-    * This will print 'Hello World' as the output
-    */
-
-   public static void main(String []args) {
+public class HelloWorld { // Class name should be same as file name as long as it's public
+   public static void main(String []args) { // main function must be public, static
+											// and must return void and takes an array of strings as parameters
+											// which are basically the command line arguments.
       System.out.println("Hello World"); // prints Hello World
    }
 }
